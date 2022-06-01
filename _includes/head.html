@@ -16,7 +16,6 @@
 
   {% include google-analytics.html %}
 
-  {% include custom-head.html %}
   <!-- Twitter cards -->
   <meta name="twitter:site"    content="@{{ site.twitter_username }}">
   <meta name="twitter:creator" content="@{{ page.author }}">
@@ -41,6 +40,8 @@
   {% endif %}
   {% endif %}
   <!-- end of Twitter cards -->
+ 
+  {% include custom-head.html %}
   
   <!-- CSS -->
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" />
