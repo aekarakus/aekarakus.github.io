@@ -16,7 +16,7 @@ baseurl:          '/'
 
 author:
   name:           'Alp Eren KARAKUŞ'
-  url:            https://aekarakus.github.io
+  url:            http://aekarakus.github.io
 
 paginate:         5
 # paginate_path:    '/page:num'
@@ -35,4 +35,4 @@ sidebar_home_link:  true
                                 # to enable a separate blog link.
 title_image:    "https://aekarakus.github.io/cephei.jpg"
 twitter_username:  alperenkarakus_
-url:    https://aekarakus.github.io
+url:    http://aekarakus.github.io
