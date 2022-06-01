@@ -29,22 +29,22 @@
   {% include custom-head.html %}
   <!-- Twitter cards -->
   <meta name="twitter:site"    content="@{{ site.twitter_username }}">
-  <meta name="twitter:creator" content="@{{ page.author }}">
-  <meta name="twitter:title"   content="{{ page.title }}">
+  <meta name="twitter:creator" content="@{{ post.author }}">
+  <meta name="twitter:title"   content="{{ post.title }}">
   
   {% if page.summary %}
-  <meta name="twitter:description" content="{{ page.summary }}">
+  <meta name="twitter:description" content="{{ post.summary }}">
   {% else %}
   <meta name="twitter:description" content="{{ site.description }}">
   {% endif %}
   
   {% if page.largeimage %}
   <meta name="twitter:card"  content="summary_large_image">
-  <meta name="twitter:image" content="{{ site.url }}{{ page.largeimage }}">
+  <meta name="twitter:image" content="{{ site.url }}{{ post.largeimage }}">
   {% else %}
   {% if page.image %}
   <meta name="twitter:card"  content="summary">
-  <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+  <meta name="twitter:image" content="{{ site.url }}{{ posrt.image }}">
   {% else %}
   <meta name="twitter:card"  content="summary">
   <meta name="twitter:image" content="{{ site.title_image }}">
