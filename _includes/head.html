@@ -16,6 +16,20 @@
 
   {% include google-analytics.html %}
 
+
+ 
+  {% include custom-head.html %}
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" />
+  {% include font-includes.html %}
+
+  <!-- Icons -->
+  {% include favicons.html %}
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.feed.path | default: 'feed.xml' | relative_url }}" />
+
   <!-- Twitter cards -->
   <meta name="twitter:site"    content="@{{ site.twitter_username }}">
   <meta name="twitter:creator" content="@{{ page.author }}">
@@ -33,23 +47,11 @@
   {% else %}
   {% if page.image %}
   <meta name="twitter:card"  content="summary">
-  <meta name="twitter:image" content="{{ site.url }}@{{ page.image }}">
+  <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
   {% else %}
   <meta name="twitter:card"  content="summary">
   <meta name="twitter:image" content="{{ site.title_image }}">
   {% endif %}
   {% endif %}
   <!-- end of Twitter cards -->
- 
-  {% include custom-head.html %}
-  
-  <!-- CSS -->
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" />
-  {% include font-includes.html %}
-
-  <!-- Icons -->
-  {% include favicons.html %}
-
-  <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.feed.path | default: 'feed.xml' | relative_url }}" />
 </head>
