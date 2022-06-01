@@ -1,8 +1,9 @@
 ---
 title: On My Struggles to Setup a Proxy Repository Manager
 layout: post
-summary: On My Struggles to Setup a Proxy Repository Manager
+summary: How I managed to set a proxy repository manager on my home lab
 author: "alperenkarakus_"
+largeimage: cephei.jpg
 categories:
 - Linux
 tags:
