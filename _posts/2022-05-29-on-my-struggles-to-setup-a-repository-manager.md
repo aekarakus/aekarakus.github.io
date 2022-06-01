@@ -2,7 +2,7 @@
 title: On My Struggles to Setup a Proxy Repository Manager
 layout: post
 summary: How I managed to set a proxy repository manager on my home lab
-largeimage: https://aekarakus.github.io/cephei.jpg
+largeimage: "https://aekarakus.github.io/cephei.jpg"
 categories:
 - Linux
 tags:
@@ -12,7 +12,7 @@ tags:
 - archiva
 - pulpproject
 - docker
-author: "alperenkarakus_"
+author: alperenkarakus_
 ---
 
 > Every test in this post was carried out with Ubuntu 20.04
