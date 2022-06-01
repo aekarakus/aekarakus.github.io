@@ -16,16 +16,6 @@
 
   {% include google-analytics.html %}
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" />
-  {% include font-includes.html %}
-
-  <!-- Icons -->
-  {% include favicons.html %}
-
-  <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.feed.path | default: 'feed.xml' | relative_url }}" />
-
   {% include custom-head.html %}
   <!-- Twitter cards -->
   <meta name="twitter:site"    content="@{{ site.twitter_username }}">
@@ -51,4 +41,14 @@
   {% endif %}
   {% endif %}
   <!-- end of Twitter cards -->
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" />
+  {% include font-includes.html %}
+
+  <!-- Icons -->
+  {% include favicons.html %}
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.feed.path | default: 'feed.xml' | relative_url }}" />
 </head>
