@@ -32,17 +32,17 @@
   <meta name="twitter:creator" content="@{{ post.author }}">
   <meta name="twitter:title"   content="{{ post.title }}">
   
-  {% if page.summary %}
+  {% if post.summary %}
   <meta name="twitter:description" content="{{ post.summary }}">
   {% else %}
   <meta name="twitter:description" content="{{ site.description }}">
   {% endif %}
   
-  {% if page.largeimage %}
+  {% if post.largeimage %}
   <meta name="twitter:card"  content="summary_large_image">
   <meta name="twitter:image" content="{{ site.url }}{{ post.largeimage }}">
   {% else %}
-  {% if page.image %}
+  {% if post.image %}
   <meta name="twitter:card"  content="summary">
   <meta name="twitter:image" content="{{ site.url }}{{ posrt.image }}">
   {% else %}
