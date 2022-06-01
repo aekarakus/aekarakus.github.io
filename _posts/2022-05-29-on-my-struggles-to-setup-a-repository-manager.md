@@ -1,6 +1,8 @@
 ---
 title: On My Struggles to Setup a Proxy Repository Manager
 layout: post
+summary: On My Struggles to Setup a Proxy Repository Manager
+author: "alperenkarakus_"
 categories:
 - Linux
 tags:
