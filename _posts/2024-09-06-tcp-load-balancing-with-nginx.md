@@ -5,7 +5,7 @@ summary: demonstration of tcp loadbalancing with nginx
 author: alperenkarakus_
 largeimage: https://i.ibb.co/PNZGxrc/cephei.jpg
 categories:
-- devops
+- Devops
 tags:
 - nginx
 - load-balancing
