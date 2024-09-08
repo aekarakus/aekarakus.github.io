@@ -1,6 +1,15 @@
 ---
 title: TCP Load Balancing with NGINX
 layout: post
+summary: demonstration of tcp loadbalancing with nginx
+author: alperenkarakus_
+largeimage: https://i.ibb.co/PNZGxrc/cephei.jpg
+categories:
+- devops
+tags:
+- nginx
+- load-balancing
+- postgresql
 ---
 
 Since version 1.9.0 nginx supports TCP load balancing. I decided to give it a try while I was working on a high available WireGuard setup. For learning purposes I didn't use WireGuard at first, I am still working on it, and I think even though nginx proved successful in basic TCP load balancing, I am not quite sure that it will work for a WireGuard setup, cause WireGuard works with UDP, and then there are inter-peer key sharing mechanism, which is another story and might not get along with a load balancing layer well. So, let's dive into basic TCP load balancing setup.
