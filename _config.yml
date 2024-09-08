@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            I'm Alp Eren
 tagline:          'a human'
-description:      'and this is my blog about software development and Linux.'
+description:      'and this is my blog about software development and devops.'
 url:              https://aekarakus.github.io
 baseurl:          '/'
                   # the optional subpath of your site, e.g. "/blog"

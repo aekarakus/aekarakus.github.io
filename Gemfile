@@ -6,3 +6,4 @@ gem 'jekyll-gist'
 gem 'jekyll-paginate'
 gem 'jekyll-feed'
 gem 'jekyll-sitemap'
+gem "sinatra", ">= 3", "< 4"
